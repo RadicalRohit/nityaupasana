@@ -8,6 +8,12 @@ body {
 }
 
 
-#phone {
-    max-width: 500px;
+
+
+.recharge{
+  height: 500px;
+  background-color: #f2f2f2;
+  max-width: 500px;
+  margin: 0 auto;
+  border-bottom: 0.5px solid;
 }
