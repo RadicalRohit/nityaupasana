@@ -1,0 +1,13 @@
+body {
+  text-align:center;
+  font-family:'Source Sans Pro';
+}
+
+.key-map:hover {
+  color:rgb(248,38,38);
+}
+
+
+#phone {
+    max-width: 500px;
+}
