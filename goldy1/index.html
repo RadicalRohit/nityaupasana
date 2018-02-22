@@ -4,13 +4,16 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-signin-client_id" content="787087969632-qp5gljii6nuhkv1h8ldhk76q5n79js8p.apps.googleusercontent.com">
     <title>goldy</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean1.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+
 </head>
 
 <body>
+  <div class="g-signin2" data-onsuccess="onSignIn"></div>
     <div>
         <nav class="navbar navbar-default navigation-clean">
             <div class="container">
@@ -43,6 +46,8 @@
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
 </body>
 
 </html>
